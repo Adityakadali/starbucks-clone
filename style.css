@@ -9,7 +9,7 @@
 
 header {
   display: flex;
-  height: 100px;
+  height: 80x;
   align-items: center;
   padding: 0 100px;
   box-shadow: 0px 2px 6px 0px rgba(66, 66, 66, 0.3);
@@ -82,4 +82,40 @@ nav li {
 .location::before {
   font-size: 1.5em;
   content: "> ";
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 0;
+}
+
+.coffe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+  text-align: center;
+}
+.id-1 {
+  background-color: #9c6e59;
+  color: #fff;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.coffe-1 {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #9c6e59;
 }
