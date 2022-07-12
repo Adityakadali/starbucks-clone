@@ -12,6 +12,7 @@ header {
   height: 100px;
   align-items: center;
   padding: 0 100px;
+  box-shadow: 0px 2px 6px 0px rgba(66, 66, 66, 0.3);
 }
 
 nav {
@@ -30,10 +31,55 @@ nav li {
   margin: 0 40px;
 }
 
-.nav-item  {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin: 10px;
-    font-weight: 400;
+.nav-item {
+  color: #242b2e;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 10px;
+  font-weight: 600;
+}
 
+.nav-item:hover {
+  color: #0f5f4c;
+}
+
+.nav-btn-group button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 0;
+  margin: 15px;
+  padding: 8px 20px;
+}
+
+.signin {
+  background-color: #fff;
+  border: 1px solid black !important;
+}
+
+.signin:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.join {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black !important;
+}
+
+.join:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.location {
+  background-color: #fff;
+}
+
+.location:hover {
+  color: #0f5f4c;
+}
+
+.location::before {
+  font-size: 1.5em;
+  content: "> ";
 }
