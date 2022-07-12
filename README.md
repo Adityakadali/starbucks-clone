@@ -6,5 +6,5 @@ This is my attempt to recreate basic layout of starbucks home page
 - Semantic HTML5 Markup
 - Custom CSS Properties
 - CSS Grid Layout
-- CSS Flexbot
+- CSS Flexbox
 
