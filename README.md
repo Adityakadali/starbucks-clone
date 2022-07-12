@@ -1,1 +1,1 @@
-## starbucks home page clone
+## Starbucks home page clone
