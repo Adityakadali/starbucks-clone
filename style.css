@@ -109,7 +109,7 @@ nav li {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   background-color: #fff;
-  border: 1px solid black;
+  border: 2px solid #fff;
   padding: 5px 20px;
   border-radius: 20px;
 }
@@ -126,19 +126,50 @@ nav li {
   color: #fff;
 }
 
+.id-3,
+.coffe-3 {
+  background-color: #c9904f;
+  color: #fff;
+}
 .coffe-2 {
   border: 2px solid #fff;
 }
 
 .conditions {
-  width: 60%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5em;
+  width: 40%;
   margin: 40px auto;
   text-align: center;
   font-size: 0.75em;
 }
 
 footer {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
   padding: 0 2em;
   margin: 20px 20px;
   line-height: 1.5em;
+  border-top: 2px solid rgba(66, 66, 66, 0.3);
+  font-family: "Poppins", sans-serif;
+}
+footer li {
+  list-style: none;
+  margin: 10px 0;
+  color: #1f303a;
+}
+footer h2 {
+  margin: 20px 0px;
+  text-align: start;
+}
+
+.ft-border {
+  padding: 30px;
+}
+
+footer div {
+  margin: 0 20px;
+  padding: 20px;
 }
